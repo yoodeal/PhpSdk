@@ -1,0 +1,22 @@
+{
+    "name": "edelprino/yoodeal-php-sdk",
+    "description": "Yoodeal PHP SDK",
+    "keywords": ["yoodeal", "sdk"],
+    "type": "library",
+    "homepage": "https://github.com/edelprino/yoodeal-php-sdk",
+    "license": "Apache2",
+    "authors": [
+        {
+            "name": "Yoodeal",
+            "homepage": "http://www.yoodeal.it"
+        }
+    ],
+    "require": {
+        "php": ">=5.2.0",
+        "ext-curl": "*",
+        "ext-json": "*"
+    },
+    "autoload": {
+        "classmap": ["src"]
+    }
+}
